@@ -5,5 +5,8 @@ This project included developing a user-friendly e-commerce store for electrical
 ## Project Technology
 This is a web-based Project.
 
+## Developer Name
+Muhammad Hammad Hassan
+
 ## Course Name
 Software Engineering
