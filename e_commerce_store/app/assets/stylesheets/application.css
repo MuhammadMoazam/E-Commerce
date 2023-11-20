@@ -13,3 +13,9 @@
  *= require_tree .
  *= require_self
  */
+
+ .carousel-img {
+    height: 400px; /* Set your desired fixed height */
+    object-fit: cover; /* Maintain aspect ratio while covering the area */
+  }
+  

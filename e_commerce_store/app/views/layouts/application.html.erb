@@ -10,14 +10,13 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  </head>
 
-    <title>Instagram</title>
-
   </head>
 
   <body class="bg-white">
-    
-    <%# <p class="notice"><%= notice %></p>
-    <%# <p class="alert"><%= alert %></p>
+    <!-- Navbar -->
+      <% if user_signed_in? %>
+        <%= render "layouts/user_nav"%>
+      <%end%>
     <!-- Page content-->
       <%= yield %>
     <!-- Add Bootstrap CSS and JS -->
