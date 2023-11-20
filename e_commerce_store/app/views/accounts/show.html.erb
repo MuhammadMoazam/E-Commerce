@@ -1,5 +1,25 @@
 <%= render "accounts/user_nav"%>
+<h2> Manage My Account<h2>
 
-<p><%= current_user.id%> </p>
-<p><%=current_user.username%></p>
-<p><%=current_user.full_name%> </p>
+<div class="row">
+    <div class="col-3 border" >
+        <h3>Personal Profile</h3>
+        <p><%= current_user.id%> </p>
+        <p><%=current_user.username%></p>
+        <p><%=current_user.full_name%> </p>
+    </div>
+        <div class="col-3 border">
+        <h3>Address Book</h3>
+
+        <p><%= current_user.id%> </p>
+        <p><%=current_user.username%></p>
+        <p><%=current_user.full_name%> </p>
+    </div>
+        <div class="col-3 border">
+        <h3>Current Rating</h3>
+        <p><%= current_user.id%> </p>
+        <p><%=current_user.username%></p>
+        <p><%=current_user.full_name%> </p>
+    </div>
+</div>
+
